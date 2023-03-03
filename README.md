@@ -10,7 +10,9 @@
     <li>Aluno</li>
     <li>Produto</li>
 
-<h2>🛠 Tecnologias</h2>
+<h2> Tecnologias</h2>
+
+instalar node_modules
 
 <p>Para o desenvolvimento do projeto, foi utilizado as seguintes tecnologias: </p>
 
