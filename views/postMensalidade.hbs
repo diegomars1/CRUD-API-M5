@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<div class="form-control">
+    <h1>Registro de Mensalidades</h1>
+    
+    <form action="/cadastrar" method="post">
+        <input type="text" required name="nome" placeholder="Digite o nome do aluno">
+        <input type="text" required name="preco" placeholder="Digite o preço da mensalidade">
+        <input type="text" required name="quantAlunos" placeholder="Quantidade de Alunos">
+        <input type="text" required name="horario" placeholder="Horario de treino">
+        <textarea name="descricao" required placeholder="Descrição do tipo de mensaliade" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+    <div class="btn-control">
+        <button><a href="/mensalidade">mensalidade</a></button>
+        <button><a href="/buscar">Buscar</a></button>
+    </div>
+</div>
